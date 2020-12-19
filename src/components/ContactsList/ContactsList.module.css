@@ -1,0 +1,37 @@
+.contactsList {
+  margin: 0;
+}
+
+.contactsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contactName {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 30px;
+
+  font-weight: 700;
+}
+
+.buttonDelete {
+  display: inline-block;
+  margin: 0;
+  width: 70px;
+
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: white;
+  border-color: #d43f3a;
+  background-color: #d9534f;
+  outline: none;
+  cursor: pointer;
+  transition: transform 250ms linear;
+}
+
+.buttonDelete:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
